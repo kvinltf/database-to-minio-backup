@@ -1,1 +1,1 @@
-# database-backup-script
+# Postgres Database Backup to MinIO
