@@ -15,3 +15,7 @@ echo "DONE Dumping Database"
 echo "Uploading to minio..."
 mcli cp strapi* minio/${MINIO_BUCKET}
 echo "DONE Uploading to minio"
+
+echo "Remove uploaded file"
+rm strapi*
+echo "DONE uploaded file"
